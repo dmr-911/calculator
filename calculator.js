@@ -1,6 +1,6 @@
 let screen = document.getElementById("screen");
 screen.classList.add('p-4', 'font-medium');
-const buttons = document.querySelectorAll('.button-value');
+const buttons = document.querySelectorAll('div');
 
 function updateScreenValue(buttonText) {
     screen.value += buttonText;
