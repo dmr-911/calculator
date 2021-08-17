@@ -10,7 +10,7 @@ for (const button of buttons) {
     button.classList.add(
       "p-4",
       "text-center",
-      "font-medium",
+      "font-bold",
       "bg-green-400",
       "rounded-full",
       "cursor-pointer");
